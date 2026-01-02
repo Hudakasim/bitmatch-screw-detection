@@ -1,0 +1,25 @@
+description: Ultralytics best model trained on /content/bitmatch-screw-detection/My-First-Project-13/data.yaml
+author: Ultralytics
+date: '2026-01-02T17:14:55.452042'
+version: 8.3.246
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 960
+- 960
+names:
+  0: Hex Socket Allen
+  1: Phillips
+  2: Pozidriv
+  3: Slotted
+  4: Torx
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  nms: false
+channels: 3
