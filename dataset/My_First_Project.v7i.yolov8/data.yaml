@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Hex Socket Allen', 'Phillips', 'Pozidriv', 'Slotted', 'Torx']
+
+roboflow:
+  workspace: hudaqq
+  project: my-first-project-edolo
+  version: 7
+  license: Private
+  url: https://app.roboflow.com/hudaqq/my-first-project-edolo/7
